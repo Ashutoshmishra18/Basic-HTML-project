@@ -1,0 +1,74 @@
+Here is the HTML code of the project
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ashutosh Mishra</title>
+        <link rel="stylesheet" href="master.css">
+
+    </head>
+    <body>
+        <h1>Welcome to Puppy Blog!</h1>
+        <div class="someclass">
+            <p>Thanks so much for visiting this site</p>
+        </div>
+        
+        <h2>What is this site for?</h2>
+        <p>This site can do three things:</p>
+        
+        <ol>
+            <li>Take in text input</li>
+            <li>Take in login information</li>
+            <li><a href="http://www.google.com">Take you to the google so you can search for the pop ups</a></li>
+        </ol>
+        <h2>Please log in to save your blog post</h2>
+        <form action="" method="get">
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="email" placeholder="Enter your email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+            <label for="login"></label>
+            <input type="submit" id="login" name="" value="Login">
+        </form>
+        <p>Questions or comments? Send us feedback here</p>
+        <textarea name="name" rows="8" cols="80" id="textblock"></textarea>
+        
+        
+
+    </body>
+
+
+</html>
+
+
+
+Here is the CSS code 
+body{
+    background-color: #D3D3D3;
+}
+h1{
+    border: 4px solid black ;
+    text-align: center;
+}
+h2{
+    color: purple;
+}
+input{
+    border: 5px solid darkblue;
+}
+textarea{
+    border: 5px solid gray;
+    width: 800px;
+    height: 400px;
+}
+someclass{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: red;
+}
+body{
+    font-family: sans-serif;
+}
+
+Here is the link of output:
+file:///C:/Users/User/HTML/basic.html
